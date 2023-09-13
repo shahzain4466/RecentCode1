@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "baseUrl": ".",
+    "target": "es6",
+    "module": "commonjs",
+    "paths": {
+      "actions/*": [
+        "./actions/*"
+      ],
+      "api/*": [
+        "./api/*"
+      ],
+      "assets/*": [
+        "./assets/*"
+      ],
+      "components/*": [
+        "./components/*"
+      ],
+      "navigation/*": [
+        "./navigation/*"
+      ],
+      "reducers/*": [
+        "./reducers/*"
+      ],
+      "sagas/*": [
+        "./sagas/*"
+      ],
+      "screens/*": [
+        "./screens/*"
+      ],
+      "store/*": [
+        "./store/*"
+      ],
+      "translations/*": [
+        "./translations/*"
+      ],
+      "utils/*": [
+        "./utils/*"
+      ]
+    },
+  },
+}
